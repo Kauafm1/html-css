@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: whitesmoke;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(65, 63, 63);
+            padding: 5px;
+            box-shadow: -6px 8px 13px rgba(0, 0, 0, 0.445);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        #assuntos > p > a{
+            text-decoration: none;
+            font-weight: bold;
+            color: gray;
+            margin-left: 15%;
+        }
+        main{
+            background-color: whitesmoke;
+            padding: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 7px 12px 17px rgba(0, 0, 0, 0.445);
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(124, 124, 124);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">link 1</a>
+                <a href="#">link 2</a>
+                <a href="#">link 3</a>
+                <a href="#">link 4</a>
+                <a href="#">link 5</a>
+            </nav>
+    </header>
+
+    <main>
+            <section id="assuntos">
+                <p>
+                    <a href="#">Esportes</a>
+                    <a href="#">Política</a>
+                    <a href="#">Tecnologia</a>
+                </p>
+            </section>
+
+        <section id="noticias">
+
+            <article>
+                <h2>Notícia sobre Lorem</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint architecto aperiam a odio id rerum incidunt, quo hic? Hic qui dolores pariatur similique alias nemo nobis eum, ab necessitatibus mollitia.
+                </p>
+                <aside>
+                    <p>Artigo escrito por José Bode</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Developed by Goat Kaua</p>
+    </footer>
+</body>
+</html>
